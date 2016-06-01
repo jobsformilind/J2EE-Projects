@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Middlesex Fells Bike Loop--><route>
+  <routepoint name="BELLEVUE">
+    <latitude>42.430950</latitude>
+    <latitude>-71.107628</latitude>
+  </routepoint>
+  <routepoint name="GATE6">
+    <latitude>42.431240</latitude>
+    <latitude>-71.109236</latitude>
+  </routepoint>
+  <routepoint name="PANTHRCAVE">
+    <latitude>42.434980</latitude>
+    <latitude>-71.109942</latitude>
+  </routepoint>
+  <routepoint name="6014MEADOW">
+    <latitude>42.436757</latitude>
+    <latitude>-71.113223</latitude>
+  </routepoint>
+  <routepoint name="6006">
+    <latitude>42.439018</latitude>
+    <latitude>-71.114456</latitude>
+  </routepoint>
+  <routepoint name="6006BLUE">
+    <latitude>42.438594</latitude>
+    <latitude>-71.114803</latitude>
+  </routepoint>
+  <routepoint name="5096">
+    <latitude>42.438917</latitude>
+    <latitude>-71.116146</latitude>
+  </routepoint>
+  <routepoint name="5066">
+    <latitude>42.438878</latitude>
+    <latitude>-71.119277</latitude>
+  </routepoint>
+  <routepoint name="5067">
+    <latitude>42.439227</latitude>
+    <latitude>-71.119689</latitude>
+  </routepoint>
+  <routepoint name="5058ROAD">
+    <latitude>42.439993</latitude>
+    <latitude>-71.120925</latitude>
+  </routepoint>
+  <routepoint name="5150TANK">
+    <latitude>42.441727</latitude>
+    <latitude>-71.121676</latitude>
+  </routepoint>
+  <routepoint name="5142">
+    <latitude>42.443904</latitude>
+    <latitude>-71.122044</latitude>
+  </routepoint>
+  <routepoint name="5144SUMMIT">
+    <latitude>42.445359</latitude>
+    <latitude>-71.122845</latitude>
+  </routepoint>
+  <routepoint name="5156">
+    <latitude>42.447298</latitude>
+    <latitude>-71.121447</latitude>
+  </routepoint>
+  <routepoint name="5148NANEPA">
+    <latitude>42.449765</latitude>
+    <latitude>-71.122320</latitude>
+  </routepoint>
+  <routepoint name="5258">
+    <latitude>42.451442</latitude>
+    <latitude>-71.121746</latitude>
+  </routepoint>
+  <routepoint name="5252PURPLE">
+    <latitude>42.453256</latitude>
+    <latitude>-71.121211</latitude>
+  </routepoint>
+  <routepoint name="527631">
+    <latitude>42.456252</latitude>
+    <latitude>-71.119356</latitude>
+  </routepoint>
+  <routepoint name="527614">
+    <latitude>42.456592</latitude>
+    <latitude>-71.119676</latitude>
+  </routepoint>
+  <routepoint name="5267OBSTAC">
+    <latitude>42.457388</latitude>
+    <latitude>-71.119845</latitude>
+  </routepoint>
+  <routepoint name="5278">
+    <latitude>42.458148</latitude>
+    <latitude>-71.119135</latitude>
+  </routepoint>
+  <routepoint name="5289">
+    <latitude>42.459377</latitude>
+    <latitude>-71.117693</latitude>
+  </routepoint>
+  <routepoint name="5374FIRE">
+    <latitude>42.464183</latitude>
+    <latitude>-71.119828</latitude>
+  </routepoint>
+  <routepoint name="5376">
+    <latitude>42.465650</latitude>
+    <latitude>-71.119399</latitude>
+  </routepoint>
+  <routepoint name="5376STREAM">
+    <latitude>42.465913</latitude>
+    <latitude>-71.119328</latitude>
+  </routepoint>
+  <routepoint name="6328">
+    <latitude>42.467110</latitude>
+    <latitude>-71.113574</latitude>
+  </routepoint>
+  <routepoint name="635722">
+    <latitude>42.466459</latitude>
+    <latitude>-71.110067</latitude>
+  </routepoint>
+  <routepoint name="635783">
+    <latitude>42.466557</latitude>
+    <latitude>-71.109410</latitude>
+  </routepoint>
+  <routepoint name="6373">
+    <latitude>42.463495</latitude>
+    <latitude>-71.107117</latitude>
+  </routepoint>
+  <routepoint name="BEAR HILL">
+    <latitude>42.465687</latitude>
+    <latitude>-71.107360</latitude>
+  </routepoint>
+  <routepoint name="6289">
+    <latitude>42.459986</latitude>
+    <latitude>-71.106170</latitude>
+  </routepoint>
+  <routepoint name="6297">
+    <latitude>42.457616</latitude>
+    <latitude>-71.105116</latitude>
+  </routepoint>
+  <routepoint name="6283">
+    <latitude>42.453845</latitude>
+    <latitude>-71.105206</latitude>
+  </routepoint>
+  <routepoint name="6280">
+    <latitude>42.451430</latitude>
+    <latitude>-71.105413</latitude>
+  </routepoint>
+  <routepoint name="6177">
+    <latitude>42.448448</latitude>
+    <latitude>-71.106158</latitude>
+  </routepoint>
+  <routepoint name="6176">
+    <latitude>42.447804</latitude>
+    <latitude>-71.106624</latitude>
+  </routepoint>
+  <routepoint name="6153">
+    <latitude>42.444773</latitude>
+    <latitude>-71.108882</latitude>
+  </routepoint>
+  <routepoint name="6171">
+    <latitude>42.443592</latitude>
+    <latitude>-71.106301</latitude>
+  </routepoint>
+  <routepoint name="6131">
+    <latitude>42.442981</latitude>
+    <latitude>-71.111441</latitude>
+  </routepoint>
+  <routepoint name="6130">
+    <latitude>42.442196</latitude>
+    <latitude>-71.110975</latitude>
+  </routepoint>
+  <routepoint name="6029">
+    <latitude>42.441754</latitude>
+    <latitude>-71.113220</latitude>
+  </routepoint>
+  <routepoint name="6006">
+    <latitude>42.439018</latitude>
+    <latitude>-71.114456</latitude>
+  </routepoint>
+  <routepoint name="6014MEADOW">
+    <latitude>42.436757</latitude>
+    <latitude>-71.113223</latitude>
+  </routepoint>
+  <routepoint name="PANTHRCAVE">
+    <latitude>42.434980</latitude>
+    <latitude>-71.109942</latitude>
+  </routepoint>
+  <routepoint name="GATE6">
+    <latitude>42.431240</latitude>
+    <latitude>-71.109236</latitude>
+  </routepoint>
+  <routepoint name="BELLEVUE">
+    <latitude>42.430950</latitude>
+    <latitude>-71.107628</latitude>
+  </routepoint>
+</route>
