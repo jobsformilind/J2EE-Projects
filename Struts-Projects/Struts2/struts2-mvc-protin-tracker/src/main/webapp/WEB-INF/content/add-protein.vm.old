@@ -1,0 +1,16 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Enter Protein VELOCITY</h1>
+		#sform ("action=enter-protein")
+			#stextfield ("name=enteredProtein")
+			#ssubmit ("value=Enter")
+		#end
+	<div>Amount entered:#sproperty ("value=enteredProtein")</div>
+	<div>Total for day: 100 grams</div>
+    <div>#sproperty ("value=goalText")</div>
+</body>
+</html>

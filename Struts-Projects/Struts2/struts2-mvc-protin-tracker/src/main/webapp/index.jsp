@@ -5,12 +5,9 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Basic Struts 2 Application - Welcome</title>
+	<title>Web App Context Root</title>
 </head>
 <body>
-	<h1>Welcome To Struts 2!</h1>
-	<p>
-		<a href="<s:url action='hello'/>">Hello World</a>
-	</p>
+	<h1>You have reached to Web App Context Root folder.</h1>
 </body>
 </html>

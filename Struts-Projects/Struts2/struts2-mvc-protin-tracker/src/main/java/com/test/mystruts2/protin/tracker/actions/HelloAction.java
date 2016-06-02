@@ -1,14 +1,15 @@
-package com.test.struts2.protin.tracker.actions;
+package com.test.mystruts2.protin.tracker.actions;
 
+import com.opensymphony.xwork2.Action;
 import com.opensymphony.xwork2.ActionSupport;
 
-public class HelloWorldAction extends ActionSupport {
+public class HelloAction extends ActionSupport implements Action {
 
 	private static final long serialVersionUID = 1L;
 	private String message;
 
 	public String execute() throws Exception {
-		setMessage("Hello World !!");
+		setMessage("Hello World..");
 		return SUCCESS;
 	}
 

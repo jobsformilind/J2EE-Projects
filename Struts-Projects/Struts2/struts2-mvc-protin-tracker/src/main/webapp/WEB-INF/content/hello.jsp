@@ -10,7 +10,7 @@
 
 <body>
 	<h2>
-		<s:property value="messageStore.message" />
+		<s:property value="message" />
 	</h2>
 </body>
 </html>
