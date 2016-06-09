@@ -1,0 +1,32 @@
+REF: 
+1. http://howtodoinjava.com/design-patterns/creational/implementing-factory-design-pattern-in-java/
+2. http://www.journaldev.com/1392/factory-design-pattern-in-java
+
+Definition:
+
+
+Factory pattern is most suitable where there is some complex object creation steps are involved. 
+To ensure that these steps are centralized and not exposed to composing classes, factory pattern should be used.
+
+This pattern introduces loose coupling between classes which is the most important principle one should consider and apply while designing the application architecture. 
+Loose coupling can be introduced in application architecture by programming against abstract entities rather than concrete implementations. 
+This not only makes our architecture more flexible but also less fragile.
+Notice that based on the input parameter, different subclass is created and returned.
+
+
+JDK Implementations: 
+java.util.Calendar, ResourceBundle and NumberFormat getInstance() methods uses Factory pattern.
+valueOf() method in wrapper classes like Boolean, Integer etc.
+java.sql.DriverManager#getConnection()
+java.net.URL#openConnection()
+java.lang.Class#newInstance()
+java.lang.Class#forName()
+
+
+Advantages/Disadvantages:
+The creation of an object precludes its reuse without significant duplication of code.
+The creation of an object requires access to information or resources that should not be contained within the composing class.
+The lifetime management of the generated objects must be centralized to ensure a consistent behavior within the application.
+Factory pattern provides approach to code for interface rather than implementation.
+Factory pattern removes the instantiation of actual implementation classes from client code, making it more robust, less coupled and easy to extend. For example, we can easily change PC class implementation because client program is unaware of this.
+Factory pattern provides abstraction between implementation and client classes through inheritance.

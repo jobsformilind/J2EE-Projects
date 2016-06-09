@@ -1,0 +1,27 @@
+REF:
+1. http://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
+2. http://www.journaldev.com/1440/prototype-pattern-in-java
+
+Definition:
+Used when the Object creation is a costly affair and requires a lot of time and resources and you have a similar object already existing.
+So this pattern provides a mechanism to copy the original object to a new object and then modify it according to our needs.
+This pattern uses java cloning to copy the object.
+Better approach is to clone the existing object into a new object and then do the data manipulation.
+
+Prototype design pattern mandates that the Object which you are copying should provide the copying feature.
+It should not be done by any other class.
+However whether to use shallow or deep copy of the Object properties depends on the requirements and its a design decision.
+
+Interface helps in achieving following goals:
+Ability to clone prototypes without knowing their actual types
+Provides a type reference to be used in registry
+
+Design participants
+1. Prototype : This is the prototype of actual object.
+2. Prototype registry : This is used as registry service to have all prototypes accessible using simple string parameters.
+3. Client : Client will be responsible for using registry service to access prototype instances.
+
+JDK Implementations:
+clone() metho in Object class
+
+Advantages/Disadvantages:

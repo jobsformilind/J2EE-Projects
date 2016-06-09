@@ -2,9 +2,11 @@ package com.test.mystruts2.protin.tracker.actions;
 
 import java.util.Map;
 
+import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.interceptor.SessionAware;
 
 import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.validator.annotations.CustomValidator;
 
 public class AddProteinAction extends ActionSupport implements SessionAware {
 
@@ -12,7 +14,14 @@ public class AddProteinAction extends ActionSupport implements SessionAware {
 	private int enteredProtein;
 	private ProteinData proteinData;
 	private Map<String, Object> session;
+	private boolean postBack;
 
+	@Action("add-protein-input")
+	public String input() throws Exception {
+		return "add-protein";
+	}
+
+	@Action("add-protein")
 	public String execute() throws Exception {
 		ensureProteinData();
 		ProteinTrackingService service = new ProteinTrackingService(proteinData);
@@ -20,10 +29,21 @@ public class AddProteinAction extends ActionSupport implements SessionAware {
 		return SUCCESS;
 	}
 
+/*	public void validate() {
+		if (!postBack) {
+			return;
+		}
+		if (enteredProtein <= 0) {
+			addFieldError("enteredProtein", "Value must be greater than zero.");
+		}
+	}
+*/
 	public int getEnteredProtein() {
 		return enteredProtein;
 	}
 
+	//@IntRangeFieldValidator(type=ValidatorType.FIELD, min="1", message="Entered protein must be greater than zero.")
+	@CustomValidator(type = "addProteinFieldValidator")
 	public void setEnteredProtein(int enteredProtein) {
 		this.enteredProtein = enteredProtein;
 	}
@@ -52,5 +72,13 @@ public class AddProteinAction extends ActionSupport implements SessionAware {
 
 	public void resetTotal() {
 		proteinData.setTotal(0);
+	}
+
+	public boolean isPostBack() {
+		return postBack;
+	}
+
+	public void setPostBack(boolean postBack) {
+		this.postBack = postBack;
 	}
 }

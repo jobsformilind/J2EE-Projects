@@ -1,0 +1,27 @@
+REF: 
+1. http://howtodoinjava.com/design-patterns/creational/builder-pattern-in-java/
+2. http://www.journaldev.com/1425/builder-design-pattern-in-java
+
+Definition:
+Builder pattern aims to “Separate the construction of a complex object from its representation 
+so that the same construction process can create different representations.”
+
+Builder pattern helps us in creating immutable classes with large set of state attributes.
+Used when the Object contains a lot of attributes.
+ 
+Sometimes developers may forget to add support for a new attribute to the builder when they add that attribute to the User class. 
+To minimize this, we should enclose the builders inside the class that they build so that it’s more obvious to the developer that there is a relevant builder that needs to be updated too.
+ 
+JDK Implementations: 
+All implementations of java.lang.Appendable are infact good example of use of Builder pattern in java. e.g.
+java.lang.StringBuilder#append() [Unsynchronized class]
+java.lang.StringBuffer#append() [Synchronized class]
+java.nio.ByteBuffer#put() (also on CharBuffer, ShortBuffer, IntBuffer, LongBuffer, FloatBuffer and DoubleBuffer)
+javax.swing.GroupLayout.Group#addComponent()
+
+Advantages/Disadvantages:
+The number of lines of code increase at least to double in builder pattern, but the effort pays off in terms of design flexibility and much more readable code. 
+The parameters to the constructor are reduced and are provided in highly readable method calls.
+Builder pattern also helps minimizing the number of parameters in constructor and thus there is no need to pass in null for optional parameters to the constructor.
+Object is always instantiated in a complete state rather than sitting in an incomplete state until the developer calls (if ever calls) the appropriate “setter” method to set additional fields.
+One can build immutable objects without much complex logic in object building process.

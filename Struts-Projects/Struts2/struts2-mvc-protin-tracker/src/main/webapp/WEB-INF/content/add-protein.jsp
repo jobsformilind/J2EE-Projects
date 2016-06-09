@@ -12,7 +12,8 @@
 	<center>
 		<h1>Protein Add</h1>
 
-		<s:form>
+		<s:form action="add-protein">
+		<s:hidden name="postBack" value="true"/>
 			<s:textfield name="enteredProtein"></s:textfield>
 			<s:submit value="Enter"></s:submit>
 		</s:form>
