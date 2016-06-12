@@ -17,7 +17,7 @@ public class ManuallyAddingAdvice {
 		DemoClass originalObject = new DemoClass();
 		AspectJProxyFactory proxyFactory = new AspectJProxyFactory(originalObject);
 		proxyFactory.addAspect(demoAspect);
-		DemoClass proxy = proxyFactory.<DemoClass> getProxy();
+		DemoClass proxy = proxyFactory.getProxy();
 		assertFalse(demoAspect.isCalled());
 		proxy.advicedMethod();
 		assertTrue(demoAspect.isCalled());

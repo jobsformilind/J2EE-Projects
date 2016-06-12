@@ -123,3 +123,19 @@ bean(*Service)
 Pointcuts can be combined using booleanoperators i.e. || , && , !
 execution(* service.*.*(..)) || execution(* repository.*.*(..))
 ```
+
+## AOP Proxy
+
+CGLIB
+- Subclass dynamically create subclass
+- Subclass implements the proxy
+
+Dynamic Proxies
+- Feature of the JDK
+- Allow dynamic method dispatch
+- For interfaces only
+
+CGLIB is used
+- if no interface is implemented
+- if proxy-target-class is set to true
+
