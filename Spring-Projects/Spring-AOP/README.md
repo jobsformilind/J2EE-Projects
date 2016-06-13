@@ -139,3 +139,35 @@ CGLIB is used
 - if no interface is implemented
 - if proxy-target-class is set to true
 
+## Compile Time Weaving vs. Load Time Weaving
+Pros Compile Time Weaving
+- No modification to the environment
+- No aop.xmlneeded
+- Faster application startup
+- Can add errors / warning
+
+Cons Compile Time Weaving
+- Cannot weave classes w/o source code
+- i.e. LTW can even modify JDK classes
+- Different compiler
+- Compiler slower (Eclipse AJDT helps)
+
+Prefer Compile Time Weaving - the simplest approach
+
+## AspectJ vs. Spring AOP
+Pros AspectJ
+- Performance much better
+- Clearer model –also indirect calls can be advised
+- Can also advise constructor, field access, protected methods etc
+
+Cons AspectJ
+- Spring AOP performance usually sufficient
+- Need to use different compiler / modify execution environment
+- Spring AOP is already built into Spring
+
+
+AspectJ is more powerful and has better performance
+
+
+react.js
+node/express.js
