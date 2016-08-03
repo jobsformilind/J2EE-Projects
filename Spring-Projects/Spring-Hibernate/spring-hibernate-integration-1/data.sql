@@ -1,0 +1,18 @@
+## MYSQL ###
+DROP TABLE IF EXISTS `employee`;
+CREATE TABLE  `milinddb`.`employee` (
+  `ID` int(10) unsigned NOT NULL,
+  `NAME` varchar(255) NOT NULL,
+  `SALARY` decimal(10,2) NOT NULL DEFAULT '0.00',
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+## Orale ##
+CREATE TABLE  "EMPLOYEE" (
+	"ID" NUMBER(10,0) NOT NULL ENABLE,
+	"NAME" VARCHAR2(255 CHAR),
+	"SALARY" FLOAT(126),
+	PRIMARY KEY ("ID") ENABLE
+)
