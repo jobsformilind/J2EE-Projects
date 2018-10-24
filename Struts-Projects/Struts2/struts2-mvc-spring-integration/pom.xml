@@ -10,9 +10,9 @@
 
 	<properties>
 		<junit.version>4.12</junit.version>
-		<struts.version>2.5</struts.version>
+		<struts.version>2.5.12</struts.version>
 		<servlet.version>2.5</servlet.version>
-		<spring.version>4.1.7.RELEASE</spring.version>
+		<spring.version>4.3.16.RELEASE</spring.version>
 	</properties>
 
 	<build>

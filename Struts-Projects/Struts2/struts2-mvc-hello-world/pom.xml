@@ -10,7 +10,7 @@
 
 	<properties>
 		<junit.version>4.12</junit.version>
-		<struts.version>2.5</struts.version>
+		<struts.version>2.5.12</struts.version>
 		<servlet.version>2.5</servlet.version>
 	</properties>
 
